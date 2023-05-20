@@ -1,5 +1,5 @@
-console.log("aa")
-import {Phaser} from "https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js";
+console.log("a")
+import * as Phaser from "https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js";
 console.log("b")
 export {Phaser};
 console.log("c")
@@ -34,13 +34,16 @@ function preload ()
 {
     this.load.atlas('sprites', 'sprite/sprite.png', 'sprite/sprite_atlas.json'); 
     this.load.image('wall', 'images/hud-texture-wall.png'); 
+
     
 }
 
 function create ()
 {
+    
     let graphics = this.add.graphics();    
     let scene = game.scene.scenes[0];
+    
     drawGrid(graphics);
 
     // the path for our enemies

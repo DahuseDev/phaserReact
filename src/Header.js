@@ -42,16 +42,16 @@ import Play from "./Components/Play";
             <div className="home">
                 <Home/>
 
-            </div>
-
-            <div className="play">
-                <Play/>
-             </div>   
+            </div>  
 
             <div className="exemples">
                 <Exemples/>
 
             </div> 
+
+            <div className="play">
+                <Play/>
+             </div> 
        
 
            </> 

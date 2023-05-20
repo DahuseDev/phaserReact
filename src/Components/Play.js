@@ -1,9 +1,9 @@
 import React from "react"; 
-import { Phaser } from "phaser";
+// import { Phaser } from "phaser";
 // import useScript from "../hooks/useScript";
 
 function Play() {
-    console.log(Phaser);
+    // console.log(Phaser);
     // useScript("//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js");
     // useScript("javascripts/config.js");
     // useScript("javascripts/classes/Money.js");
@@ -18,6 +18,7 @@ function Play() {
     // useScript("javascripts/index.js");
     return (
         <>
+        <h1>Tower Defense</h1>
         {/* <link rel='stylesheet' href='/stylesheets/style.css'/>
         <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"/>
         <script src="javascripts/config.js"/>
@@ -31,7 +32,7 @@ function Play() {
         <script src="javascripts/classes/HudStructure.js"/>
         <script src="javascripts/functions.js"/>
         <script src="javascripts/index.js"/> */}
-        
+        <iframe id="phaser" src="http://92.177.225.133:3005"></iframe>
         
         </>
     )
