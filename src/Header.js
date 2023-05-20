@@ -1,10 +1,11 @@
-    import React, {useState, useEffect} from "react";
-    import './App.css'; 
-    //import { Link } from "react-router-dom";
-    import {Link, animateScroll as scroll } from 'react-scroll';
-    import Home from './Components/Home.js'; 
-    import Exemples from './Components/Exemples.js'; 
-    import Up from "./Components/Up.js";
+import React from "react";
+import './App.css'; 
+//import { Link } from "react-router-dom";
+import {Link} from 'react-scroll';
+import Home from './Components/Home.js'; 
+import Exemples from './Components/Exemples.js'; 
+import Up from "./Components/Up.js";
+import Play from "./Components/Play";
 
 
     function Header(){
@@ -44,7 +45,7 @@
             </div>
 
             <div className="play">
-
+                <Play/>
              </div>   
 
             <div className="exemples">

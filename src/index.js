@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import Header from './Header.js';  
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
-import Home from './Components/Home.js'; 
-import Play from './Components/Play.js'; 
-import About_us from './Components/Exemples.js'; 
+import { BrowserRouter} from "react-router-dom";
 
 
 
