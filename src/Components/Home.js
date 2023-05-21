@@ -21,7 +21,7 @@ function Home () {
            
             <div className="p2">
                 <div className="p1-info">
-                    <h3>Què és Phaser</h3>
+                    <h1>Què és Phaser</h1>
                     <p>Phaser és una biblioteca de JavaScript que facilita la codificació d'un joc, de manera similar a com jQuery és una biblioteca de JavaScript que facilita la modificació d'HTML i CSS en una pàgina web.
                     Phaser facilita afegir els gràfics del vostre joc per construir un món de joc, afegir animacions, afegir entrades de jugadors, afegir física al vostre món de joc (velocitat, gravetat, fricció, etc.), detectar col·lisions entre objectes del joc, afegir explosions de partícules, jugar. sons, i molt més.
                     Phaser crea jocs en 2D. Tanmateix, si ets nou a crear jocs, és millor començar amb 2D.</p>

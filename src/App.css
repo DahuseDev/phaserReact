@@ -3,11 +3,21 @@ html,body{
   padding: 0;
   height: 100%;
   background-color: #000000;
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 #root{
   height: 100%;
   background-color: #000000;
+}
+
+#root > div {
+  margin-bottom: 10%;
 }
 
 .HomePage{
@@ -195,7 +205,6 @@ h3, p {
   overflow: hidden;
   padding: 15px;
   text-align: center;
-  margin: 0 5px;
   background: transparent;
   text-transform: uppercase;
   font-weight: 900;
@@ -252,13 +261,21 @@ button {
   outline: none;
   border: none;
   background: transparent;
-  font-size: 40px;
+  font-size: 30px;
   width: auto;
 }
 
 #phaser{
+  border: 0;
   width: 100%;
   height: 100vh;
+}
+
+.score h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
 }
 
 

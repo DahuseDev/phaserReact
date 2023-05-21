@@ -18,7 +18,6 @@ function Play() {
     // useScript("javascripts/index.js");
     return (
         <>
-        <h1>Tower Defense</h1>
         {/* <link rel='stylesheet' href='/stylesheets/style.css'/>
         <script src="//cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"/>
         <script src="javascripts/config.js"/>
