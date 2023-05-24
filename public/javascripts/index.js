@@ -43,9 +43,8 @@ function create ()
     
     let graphics = this.add.graphics();    
     let scene = game.scene.scenes[0];
-    
     drawGrid(graphics);
-
+    graphics.depth=100
     // the path for our enemies
     // parameters are the start x and y of our path
     path = this.add.path((0*60), (2*60)+30);
@@ -67,7 +66,6 @@ function create ()
     enemies = this.physics.add.group({ classType: Enemy, runChildUpdate: true });
     this.nextEnemy = 0;
     turrets = this.add.group({ classType: Turret, runChildUpdate: true });
-    // this.input.on('pointerdown', placeTurret);
     bullets = this.physics.add.group({ classType: Bullet, runChildUpdate: true });
     HudItems = this.physics.add.group({ classType: HudItem, runChildUpdate: true });
     HudStructures = this.physics.add.group({ classType: HudStructure, runChildUpdate: true });

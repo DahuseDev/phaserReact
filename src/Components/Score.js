@@ -9,7 +9,7 @@ function Score (){
             <h1>Taulell de jugadors</h1>
             <div id="leaderboard">
             
-            <iframe id="phaser" src="http://92.177.225.133:3005/scoreboard"></iframe>
+            <iframe id="phaser" src="http://172.20.17.84:3005/scoreboard"></iframe>
 
             </div>
         </div>

@@ -8,7 +8,7 @@ function Play() {
     // useScript("javascripts/config.js");
     // useScript("javascripts/classes/Money.js");
     // useScript("javascripts/classes/Health.js");
-    // useScript("javascripts/classes/Focus.js");
+    // useSc5ript("javascripts/classes/Focus.js");
     // useScript("javascripts/classes/Bullet.js");
     // useScript("javascripts/classes/Enemy.js");
     // useScript("javascripts/classes/Turret.js");
@@ -31,7 +31,7 @@ function Play() {
         <script src="javascripts/classes/HudStructure.js"/>
         <script src="javascripts/functions.js"/>
         <script src="javascripts/index.js"/> */}
-        <iframe id="phaser" src="http://92.177.225.133:3005"></iframe>
+        <iframe id="phaser" src="http://172.20.17.84:3005/"></iframe>
         
         </>
     )
