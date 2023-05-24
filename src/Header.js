@@ -37,9 +37,9 @@ import Tecnologies from "./Components/Tecnologies.js";
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="home"><button> Introducció</button></Link>
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="exemples"><button>Exemples</button></Link>
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="tecnologies"><button>Tecnologies</button></Link>
+                <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="play"><button>Joc</button></Link>
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="score"><button>Leaderboard</button></Link>
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="video"><button>Video</button></Link>
-                <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} className="box" to="play"><button>Joc</button></Link>
             </div>
             <div className="btn-up">
                 <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={1000} className="up-circle" to="nav"> <Up/></Link>
@@ -57,17 +57,17 @@ import Tecnologies from "./Components/Tecnologies.js";
                 <Tecnologies/>
             </div>
 
+            <div className="play">
+                <Play/>
+            </div> 
+            
             <div className="score">
                 <Score/>
             </div>
 
-            {/* <div className="video">
+            <div className="video">
                 <Video/>
-            </div> */}
-
-            <div className="play">
-                <Play/>
-            </div> 
+            </div>
             </> 
         )
     }

@@ -1,4 +1,4 @@
-  html,body{
+html,body{
   margin: 0;
   padding: 0;
   height: 100%;
@@ -283,7 +283,10 @@ button {
   color: white; 
 }
 
-
+.titol{
+  color:white;
+  text-align: center;
+}
 /* 
 .App {
   text-align: center;
